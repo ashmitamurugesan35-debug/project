@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color:white;
+}
+.bars .done{
+    background-color: rgb(12, 12, 42);
+    border-radius: 25px;
+    width:900px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-left: 10px solid green;
+    transition: 0.5s;
+}
+.bars .done:hover{
+    background-color:green;
+    border-left: 10px solid brown;
+    box-shadow: 0px 0px 40px green;
+    transform: translateY(-10px);
+}
+.bars .pending{
+    background-color: rgb(12, 12, 42);
+    border-radius: 25px;
+    width:900px;
+    padding: 10px 25px;
+     cursor: pointer;
+     border-left: 10px solid yellow;
+     transition: 0.5s;
+}
+.bars .pending:hover{
+    background-color:rgb(215, 215, 20);
+    border-left: 10px solid brown;
+     box-shadow: 0px 0px 40px rgb(215, 215, 20);
+    transform: translateY(-10px);
+}
+.bars .rejected{
+    background-color: rgb(12, 12, 42);
+    border-radius: 25px;
+    width:900px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-left: 10px solid red;
+    transition: 0.5s;
+}
+.bars .rejected:hover{
+    background-color:red;
+    border-left: 10px solid brown;
+    box-shadow: 0px 0px 40px red;
+    transform: translateY(-10px);
+}
+.sp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bill{
+    background-color:rgb(12, 12, 42);
+    padding: 40px;
+    border-radius: 25px;
+    width:400px;
+     cursor: pointer;
+     transition: 0.5s;
+}
+.bill:hover{
+     background-color:rgb(17, 17, 70);
+     box-shadow: 0px 0px 40px rgb(7, 7, 50);
+     transform: translateY(-10px);
+}
